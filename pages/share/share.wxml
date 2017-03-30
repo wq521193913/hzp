@@ -1,0 +1,5 @@
+<!--share.wxml-->
+<view class="container">
+  <button>QQ</button>
+  <button>微信</button>
+</view>

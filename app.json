@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/a/main",
+    "pages/logs/logs",
+    "pages/share/share"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "测试小草",
+    "navigationBarTextStyle":"black"
+  }
+}

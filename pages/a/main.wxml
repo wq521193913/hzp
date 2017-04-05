@@ -1,16 +1,70 @@
 <view class="main-vi">
+<view class="header-vi">
+<view class="advertisement-vi">
+    <swiper indicator-dots="true" autoplay="true" interval="2000" duration="1000">
+        <block wx:for="{{adList}}">
+            <swiper-item style="text-align:center;">
+            <image src="{{item}}" class="slide-image"/>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
 <view class="search-vi">
-    <view class="search-item width-30 right-re-10">
-        <button class="logo-img"></button>
+    <view class="search-item width-30 right-re-20">
+        <view class="logo-img">
+        <view>—</view>
+        <view>—</view>
+        <view>—</view>
+        </view>
     </view>
     
-    <view class="search-item search-input-vi">
+    <view class="search-item search-input-vi right-re-10">
         <input type="text" placeholder="商品名称" class="search-input"/>
         <icon type="clear" class="search-clear"></icon>
     </view>
     <view class="search-item width-30">
     <button class="search-btn">搜索</button>
     </view>
-    
 </view>
 </view>
+
+<view class="commodity-vi">
+    <view class="commodity-item">
+        <image class="commodity-img" src="/pages/resource/img/20170401155644.jpg"></image>
+        <view>title1</view>
+        <label>
+        <label style="font-size:18px;">¥</label>
+        <label style="color:red;font-size:20px;margin-left:3px;">11.0</label>
+        </label>
+    </view>
+    <view class="commodity-item">
+    <image class="commodity-img" src="/pages/resource/img/20170401155659.jpg"></image>
+        <view>title2</view>
+        <label>
+        <label style="font-size:18px;">¥</label>
+        <label style="color:red;font-size:20px;margin-left:3px;">11.0</label>
+        </label>
+    </view>
+    <view class="commodity-item">
+    <image class="commodity-img" src="/pages/resource/img/20170401155644.jpg"></image>
+        <view>title3</view>
+        <label>
+        <label style="font-size:18px;">¥</label>
+        <label style="color:red;font-size:20px;margin-left:3px;">11.0</label>
+        </label>
+    </view>
+    <view class="commodity-item">
+    <image class="commodity-img" src="/pages/resource/img/20170401155659.jpg"></image>
+        <view>title4</view>
+        <label>
+        <label style="font-size:18px;">¥</label>
+        <label style="color:red;font-size:20px;margin-left:3px;">11.0</label>
+        </label>
+    </view>
+</view>
+
+<scroll-view scroll-y="true">
+    <view class="classname"></view>
+</scroll-view>
+</view>
+

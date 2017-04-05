@@ -4,18 +4,31 @@ main-vi{
 }
 .search-vi{
     text-align: center;
+ z-index:9;
+top:-140px;
+position:relative;
+
 }
 .logo-img{
     width:30px;
     height: 31px;
-    
-    display: inline-block;
-    color: red;
+    /*display: inline-block;*/
     font-weight: bold;
     border-radius: 0;
-    
+    padding-left:0px;
+    padding-right: 0px;
+    line-height: 0px;
+    /*border:1px solid #ddd;*/
+    float:left;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
     /*background: url('/pages/resource/img/search.png') no-repeat;*/
 }
+.logo-img view{
+    margin-top:25%;
+}
+
 .width-30{
     width:30px;
 }
@@ -25,10 +38,11 @@ main-vi{
 .search-input-vi{
     border: 1px solid #ddd;
     width:60%;
+    background-color: aliceblue;
+    font-size: 15px;
 }
 .search-input{
     height: 30px;
-    width:86%;
     float:left;
     text-align: left;
 }
@@ -50,4 +64,29 @@ main-vi{
 .right-re-10{
     right:10px;
     position:relative;
+}
+.right-re-20{
+    right:20px;
+    position:relative;
+}
+.sview-item{
+    width:60%;
+    height:200px;
+    background: url("/pages/resource/img/default.jpg");
+}
+.advertisement-vi{
+    top:0px;
+    z-index: -1;
+}
+.slide-image{
+    width:100%;
+    height:150px;
+}
+.commodity-item{
+    width:50%;
+    float: left;
+}
+.commodity-img{
+    width:99%;
+    height: 100px;
 }
